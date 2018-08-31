@@ -45,7 +45,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0ECE40700ECE3F5000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		1113CC801113E70000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		1119C68220AA135700DDFCC2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		390033E6206EE9F100C61E5D /* ObjectOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectOrigin.swift; sourceTree = "<group>"; };
@@ -97,14 +96,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0ECE48A00ECE4A9000000001 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				0ECE40700ECE3F5000000001 /* SampleCode.xcconfig */,
-			);
-			name = Configuration;
-			sourceTree = "<group>";
-		};
 		1113EA601112BFD000000001 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +161,6 @@
 				395C9955200707A40025413C /* Info.plist */,
 				395C9945200707A30025413C /* Products */,
 				C4F50182203489740099B4BD /* Frameworks */,
-				0ECE48A00ECE4A9000000001 /* Configuration */,
 				1113EA601112BFD000000001 /* LICENSE */,
 			);
 			sourceTree = "<group>";
@@ -359,7 +349,6 @@
 /* Begin XCBuildConfiguration section */
 		395C9956200707A40025413C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ECE40700ECE3F5000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -420,7 +409,6 @@
 		};
 		395C9957200707A40025413C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ECE40700ECE3F5000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -474,7 +462,6 @@
 		};
 		395C9959200707A40025413C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ECE40700ECE3F5000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -494,7 +481,6 @@
 		};
 		395C995A200707A40025413C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ECE40700ECE3F5000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
